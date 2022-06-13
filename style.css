@@ -1,0 +1,96 @@
+html{
+  scroll-behavior: smooth;
+}
+.work {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+    background-color: rgba(51,170,51,.1);
+  }
+  .btn{
+    background-color:transparent;
+    color:white;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 12px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.btn:hover{
+  background-color: rgba(15, 201, 201, 0.144);
+  color: pink;
+  font-size:15px ;
+}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  p{
+    
+      background: rgba(rgb(36, 34, 35), 0.8);
+      background-size:cover ;
+      background-color: rgba(253, 253, 253, 0.1);   
+  }
+  .home{
+    background-image: url(../image/webcover.png);
+    height: 100vh;
+    display: blocks;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+    text-indent: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+  }
+ 
+  .phohead{
+    padding: 2rem;
+    max-width: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: aqua;
+    transition: width 2s linear 1s;
+  }
+  .phohead:hover{
+    width: 300px;
+  }
+  .workpho{
+    transition: transform .2s;
+}
+.workpho:hover{
+    transform: scale(0.9);
+}
+#contact{
+  box-sizing: border-box;
+  line-height: 1cm;
+  background-image:linear-gradient(aqua,white);
+  text-align: center;
+  
+}
+  
+  @media (max-width: 650px) {
+    body {
+      display: block;
+      font-size: 80%;
+    }
+    p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(rgb(252, 250, 251), 0.8);
+    }
+  }
